@@ -23,11 +23,27 @@ p, li {
   color: #FFFFFF;
   font-size: 10px;
 }
-
 a {
-    cursor: url("assets/images/cursor.png"),
-            default;
-    color: #20EA12;
-    font-size: 10px;
-    text-decoration: none;
+  cursor: url("assets/images/cursor.png"), default;
+  color: #20EA12;
+  font-size: 10px;
+  text-decoration: none;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg); */
+  /* transform: rotate(0.3rad);/ */
+  /* transform: rotate(3grad); */
+  /* transform: rotate(.03turn);  */
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }

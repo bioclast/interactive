@@ -31,9 +31,9 @@ a {
 }
 img{
   display: block;
-  margin-left: auto;
+  margin-left: 1em;
   margin-right: auto;
-  width: 50%;
+  width: 10%;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;

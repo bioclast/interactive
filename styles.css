@@ -1,3 +1,8 @@
+.vw-vh{
+    width: 90vw;
+    height: 90vh;
+}
+
 h1 {
   font-family: pauline-script,sans-serif;
   font-weight: 300;
@@ -8,4 +13,11 @@ p, li {
   font-family: le-monde-livre-classic-byol, serif;
   font-weight: 300;
   font-style: normal;
+}
+
+a {
+    cursor: url("assets/images/cursor.png"),
+            default;
+    color: #c2ffd3;
+    text-decoration: none;
 }

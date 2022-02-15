@@ -19,7 +19,6 @@ body {
 .column {
   flex: 50%;
 }
-
 .square {
   padding: .5em;
   max-width: 25%;
@@ -54,6 +53,9 @@ p, li {
   font-size: 10px;
   font-weight: normal;
 }
+a:hover {
+  background-color: yellow;
+}
 a {
   cursor: url("assets/images/cursor.png"), default;
   color: #999999;
@@ -61,7 +63,7 @@ a {
   font-weight: normal;
   text-decoration: none;
 }
-img{
+img {
   display: block;
   margin-left: 1em;
   margin-right: auto;

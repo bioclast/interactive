@@ -53,15 +53,14 @@ p, li {
   font-size: 10px;
   font-weight: normal;
 }
-a:hover {
-  background-color: yellow;
-}
 a {
-  cursor: url("assets/images/cursor.png"), default;
-  color: #999999;
+  color: #555555;
   font-size: 10px;
   font-weight: normal;
   text-decoration: none;
+}
+a:hover {
+  background-color: yellow;
 }
 img {
   display: block;

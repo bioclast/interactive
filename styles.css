@@ -11,6 +11,10 @@ body {
   text-align: left;
   display: inline-block;
 }
+.script {
+  position: top;
+  z-index: 0;
+}
 .square {
   padding: .5em;
   max-width: 100%;

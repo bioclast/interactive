@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: pink;
+  background-color: #edadad;
 }
 .video {
   border-radius: 20px;

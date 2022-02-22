@@ -12,8 +12,11 @@ body {
   display: inline-block;
 }
 .script {
-  position: top;
-  z-index: -1;
+  position: fixed;
+  padding-left: .5em;
+  padding-top: .5em;
+  align: rooftop;
+  z-index: -10;
 }
 .square {
   padding: .5em;
@@ -54,7 +57,7 @@ p, li {
   font-weight: normal;
 }
 a:hover {
-  background-color: yellow;
+  background-color: #999999;
 }
 a {
   /*cursor: url("assets/images/cursor.png"), default;*/

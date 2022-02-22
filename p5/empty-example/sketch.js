@@ -3,7 +3,9 @@ let y = 1;
 let easing = 0.05;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
+  canvas.position(0, 0);
+  canvas.style('z-index', '-1');
   noStroke();
 }
 
@@ -17,6 +19,6 @@ function draw() {
   let dy = targetY - y;
   y += dy * easing;
 
-  fill(204)
+  fill(153, 153, 153)
   ellipse(x, y, 30, 30);
 }

@@ -3,7 +3,7 @@
   src: url(fonts/Akkurat-Mono.otf) format("opentype");
 }
 body {
-  background-color: #FFFFFF;
+  background-color: grey;
   color: #000000;
   font-family: Akkurat;
   font-size: 10px;
@@ -68,9 +68,12 @@ a {
 }
 img {
   display: block;
+  position: fixed;
+  left: 100em;
+  top: 10em;
   margin-left: 1em;
   margin-right: auto;
-  width: 10%;
+  width: 25%;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;

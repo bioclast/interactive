@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Input-Output</title>
     <style>
+    input {
+      width: 25%;
+    }
+    .circle {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: green;
+    }
     </style>
   </head>
   <body>
@@ -24,6 +33,25 @@
     </select>
 
     <h1 class="message"></h1>
+
+    <label for="circle">Choose your dosage /mg</label>
+    <input type="range" id="size" name="size" min="0" max="100" oninput="this.nextElementSibling.value = this.value">
+    <output>50</output>
+    <br><br><br>
+    <div class="circle"></div>
+    <br><br>
+    <label for="environment">Choose your environment</label>
+    <select name="meds" id="meds">
+      <option value="0">Bed</option>
+      <option value="1">Bathroom</option>
+      <option value="2">Club</option>
+      <option value="3">Basement</option>
+      <option value="4">Beach</option>
+      <option value="5">Forest</option>
+      <option value="6">Rooftop</option>
+    </select>
+
+    <h1 class="message2"></h1>
 
     <!-- Scripts go at the bottom of your <body> element, below your HTML.
       Here's a link to the jquery library -->

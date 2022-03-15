@@ -1,4 +1,4 @@
-var day;
+var meds;
 var messages = [
   "Adderall is used to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy (a sleep disorder).",
   "Topical cocaine can be used as a local numbing agent to help with painful procedures in the mouth or nose.",
@@ -14,3 +14,13 @@ $("#meds").change(function() {
   console.log(day);
   $(".message").html(messages[day]);
 })
+
+$("#size").change(function() {
+
+  var size = $(this).val();
+  var size_value = size + "px";
+
+  $(".circle").css("height", size_value);
+  $(".circle").css("width", size_value);
+
+});

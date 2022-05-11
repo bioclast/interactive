@@ -1,0 +1,28 @@
+@font-face{
+  font-family: Akkurat;
+  src: url(../../fonts/Akkurat-Mono.otf) format("opentype");
+}
+body {
+  background-color: white;
+  background-blend-mode: difference;
+  font-family: Akkurat;
+  font-size: 10px;
+  font-weight: normal;
+  text-align: left;
+  display: block;
+  padding: 1em;
+}
+h1 {
+  font-size: 10px;
+  font-weight: normal;
+  text-align: left;
+}
+h2 {
+  font-size: 10px;
+  font-weight: normal;
+}
+a {
+  color: #555555;
+  font-size: 10px;
+  font-weight: normal;
+  text-decoration: none;

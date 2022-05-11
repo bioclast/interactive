@@ -57,7 +57,8 @@ function draw() {
 
     //translate(inData, 0);torus(inData, 5);
 
-    rotateY(inData);torus(inData, 5);
+    rotateY(inData);
+    torus(inData, 5);
 
     //translate(-inData, 0);rotateY(90);torus(inData, 5);
 

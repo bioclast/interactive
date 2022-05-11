@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bellow Factor Calculator</title>
+    <link rel="stylesheet" href="tool-styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vfp8ztv.css">
+  </head>
+  <body>
+    <div class="header">
+      <a href="../../index.html">Back</a>
+      <h1>Bellow Factor Calculator</h1>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+
+    <div>
+      <label for="bellow-length">Bellow Length /mm (10-1000):</label><br><br>
+      <input type="number" id="bellow_length" name="bellow-length" min="10" max="1000">
+    </div>
+    <br>
+    <div>
+      <label for="focal-length">Focal Length /mm (10-300):</label><br><br>
+      <input type="number" id="focal_length" name="focal-length" min="10" max="300">
+    </div>
+    <br>
+    <button type="button">calculate</button><br><br>
+    <div>
+      Bellow Factor: <output name="bellow_factor" for="a b"></output><br>
+    </div>
+
+
+    <!-- Scripts go at the bottom of your <body> element, below your HTML.
+      Here's a link to the jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- And here's a link to our javascript, written in an external js file called main.js -->
+    <script src="main.js"></script>
+  </body>
+  <script src="main.js"></script>
+</html>
